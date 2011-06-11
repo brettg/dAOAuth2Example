@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B47EB6813A1C5D10062EE25 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B47EB6713A1C5D10062EE25 /* Security.framework */; };
+		8B6F4DBE13A3392A000513A4 /* dAOAuthExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F4D9413A3392A000513A4 /* dAOAuthExample-Info.plist */; };
+		8B6F4DBF13A3392A000513A4 /* dAOAuthExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F4D9513A3392A000513A4 /* dAOAuthExampleViewController.xib */; };
+		8B6F4DC013A3392A000513A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F4D9713A3392A000513A4 /* InfoPlist.strings */; };
+		8B6F4DC113A3392A000513A4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F4D9913A3392A000513A4 /* MainWindow.xib */; };
+		8B6F4DC213A3392A000513A4 /* dAOAuthExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4D9E13A3392A000513A4 /* dAOAuthExampleAppDelegate.m */; };
+		8B6F4DC313A3392A000513A4 /* dAOAuthExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DA013A3392A000513A4 /* dAOAuthExampleViewController.m */; };
+		8B6F4DC413A3392A000513A4 /* DeviantArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DA213A3392A000513A4 /* DeviantArt.m */; };
+		8B6F4DC513A3392A000513A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DA313A3392A000513A4 /* main.m */; };
+		8B6F4DC613A3392A000513A4 /* NSData+NXOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DA713A3392A000513A4 /* NSData+NXOAuth2.m */; };
+		8B6F4DC713A3392A000513A4 /* NSString+NXOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DA913A3392A000513A4 /* NSString+NXOAuth2.m */; };
+		8B6F4DC813A3392A000513A4 /* NSURL+NXOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DAB13A3392A000513A4 /* NSURL+NXOAuth2.m */; };
+		8B6F4DC913A3392A000513A4 /* NXOAuth2AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DAE13A3392A000513A4 /* NXOAuth2AccessToken.m */; };
+		8B6F4DCA13A3392A000513A4 /* NXOAuth2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DB013A3392A000513A4 /* NXOAuth2Client.m */; };
+		8B6F4DCB13A3392A000513A4 /* NXOAuth2Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DB313A3392A000513A4 /* NXOAuth2Connection.m */; };
+		8B6F4DCC13A3392A000513A4 /* NXOAuth2Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DB613A3392A000513A4 /* NXOAuth2Constants.m */; };
+		8B6F4DCD13A3392A000513A4 /* NXOAuth2FileStreamWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DB813A3392A000513A4 /* NXOAuth2FileStreamWrapper.m */; };
+		8B6F4DCE13A3392A000513A4 /* NXOAuth2PostBodyPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DBA13A3392A000513A4 /* NXOAuth2PostBodyPart.m */; };
+		8B6F4DCF13A3392A000513A4 /* NXOAuth2PostBodyStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4DBC13A3392A000513A4 /* NXOAuth2PostBodyStream.m */; };
+		8B6F4DD113A33E64000513A4 /* animal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F4DD013A33E64000513A4 /* animal.jpg */; };
+		8BAE299B13A3D76900189602 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE299A13A3D76900189602 /* JSONKit.m */; };
+		8BD3928113A1C3F700667055 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD3928013A1C3F700667055 /* UIKit.framework */; };
+		8BD3928313A1C3F700667055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD3928213A1C3F700667055 /* Foundation.framework */; };
+		8BD3928513A1C3F700667055 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD3928413A1C3F700667055 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B47EB6713A1C5D10062EE25 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8B6F4D9413A3392A000513A4 /* dAOAuthExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dAOAuthExample-Info.plist"; sourceTree = "<group>"; };
+		8B6F4D9613A3392A000513A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dAOAuthExampleViewController.xib; sourceTree = "<group>"; };
+		8B6F4D9813A3392A000513A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B6F4D9A13A3392A000513A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8B6F4D9C13A3392A000513A4 /* dAOAuthExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dAOAuthExample-Prefix.pch"; sourceTree = "<group>"; };
+		8B6F4D9D13A3392A000513A4 /* dAOAuthExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dAOAuthExampleAppDelegate.h; sourceTree = "<group>"; };
+		8B6F4D9E13A3392A000513A4 /* dAOAuthExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dAOAuthExampleAppDelegate.m; sourceTree = "<group>"; };
+		8B6F4D9F13A3392A000513A4 /* dAOAuthExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dAOAuthExampleViewController.h; sourceTree = "<group>"; };
+		8B6F4DA013A3392A000513A4 /* dAOAuthExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dAOAuthExampleViewController.m; sourceTree = "<group>"; };
+		8B6F4DA113A3392A000513A4 /* DeviantArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviantArt.h; sourceTree = "<group>"; };
+		8B6F4DA213A3392A000513A4 /* DeviantArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviantArt.m; sourceTree = "<group>"; };
+		8B6F4DA313A3392A000513A4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B6F4DA613A3392A000513A4 /* NSData+NXOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NXOAuth2.h"; sourceTree = "<group>"; };
+		8B6F4DA713A3392A000513A4 /* NSData+NXOAuth2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NXOAuth2.m"; sourceTree = "<group>"; };
+		8B6F4DA813A3392A000513A4 /* NSString+NXOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NXOAuth2.h"; sourceTree = "<group>"; };
+		8B6F4DA913A3392A000513A4 /* NSString+NXOAuth2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NXOAuth2.m"; sourceTree = "<group>"; };
+		8B6F4DAA13A3392A000513A4 /* NSURL+NXOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+NXOAuth2.h"; sourceTree = "<group>"; };
+		8B6F4DAB13A3392A000513A4 /* NSURL+NXOAuth2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NXOAuth2.m"; sourceTree = "<group>"; };
+		8B6F4DAC13A3392A000513A4 /* NXOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2.h; sourceTree = "<group>"; };
+		8B6F4DAD13A3392A000513A4 /* NXOAuth2AccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2AccessToken.h; sourceTree = "<group>"; };
+		8B6F4DAE13A3392A000513A4 /* NXOAuth2AccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2AccessToken.m; sourceTree = "<group>"; };
+		8B6F4DAF13A3392A000513A4 /* NXOAuth2Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2Client.h; sourceTree = "<group>"; };
+		8B6F4DB013A3392A000513A4 /* NXOAuth2Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2Client.m; sourceTree = "<group>"; };
+		8B6F4DB113A3392A000513A4 /* NXOAuth2ClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2ClientDelegate.h; sourceTree = "<group>"; };
+		8B6F4DB213A3392A000513A4 /* NXOAuth2Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2Connection.h; sourceTree = "<group>"; };
+		8B6F4DB313A3392A000513A4 /* NXOAuth2Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2Connection.m; sourceTree = "<group>"; };
+		8B6F4DB413A3392A000513A4 /* NXOAuth2ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2ConnectionDelegate.h; sourceTree = "<group>"; };
+		8B6F4DB513A3392A000513A4 /* NXOAuth2Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2Constants.h; sourceTree = "<group>"; };
+		8B6F4DB613A3392A000513A4 /* NXOAuth2Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2Constants.m; sourceTree = "<group>"; };
+		8B6F4DB713A3392A000513A4 /* NXOAuth2FileStreamWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2FileStreamWrapper.h; sourceTree = "<group>"; };
+		8B6F4DB813A3392A000513A4 /* NXOAuth2FileStreamWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2FileStreamWrapper.m; sourceTree = "<group>"; };
+		8B6F4DB913A3392A000513A4 /* NXOAuth2PostBodyPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2PostBodyPart.h; sourceTree = "<group>"; };
+		8B6F4DBA13A3392A000513A4 /* NXOAuth2PostBodyPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2PostBodyPart.m; sourceTree = "<group>"; };
+		8B6F4DBB13A3392A000513A4 /* NXOAuth2PostBodyStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2PostBodyStream.h; sourceTree = "<group>"; };
+		8B6F4DBC13A3392A000513A4 /* NXOAuth2PostBodyStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2PostBodyStream.m; sourceTree = "<group>"; };
+		8B6F4DBD13A3392A000513A4 /* NXOAuth2TrustDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2TrustDelegate.h; sourceTree = "<group>"; };
+		8B6F4DD013A33E64000513A4 /* animal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal.jpg; sourceTree = "<group>"; };
+		8BAE299913A3D76900189602 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		8BAE299A13A3D76900189602 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		8BD3927C13A1C3F700667055 /* dAOAuthExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dAOAuthExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD3928013A1C3F700667055 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BD3928213A1C3F700667055 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BD3928413A1C3F700667055 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD3927913A1C3F700667055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B47EB6813A1C5D10062EE25 /* Security.framework in Frameworks */,
+				8BD3928113A1C3F700667055 /* UIKit.framework in Frameworks */,
+				8BD3928313A1C3F700667055 /* Foundation.framework in Frameworks */,
+				8BD3928513A1C3F700667055 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B6F4D9313A3392A000513A4 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F4DD013A33E64000513A4 /* animal.jpg */,
+				8B6F4D9513A3392A000513A4 /* dAOAuthExampleViewController.xib */,
+				8B6F4D9713A3392A000513A4 /* InfoPlist.strings */,
+				8B6F4D9913A3392A000513A4 /* MainWindow.xib */,
+				8B6F4D9413A3392A000513A4 /* dAOAuthExample-Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		8B6F4D9B13A3392A000513A4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F4D9C13A3392A000513A4 /* dAOAuthExample-Prefix.pch */,
+				8B6F4D9D13A3392A000513A4 /* dAOAuthExampleAppDelegate.h */,
+				8B6F4D9E13A3392A000513A4 /* dAOAuthExampleAppDelegate.m */,
+				8B6F4D9F13A3392A000513A4 /* dAOAuthExampleViewController.h */,
+				8B6F4DA013A3392A000513A4 /* dAOAuthExampleViewController.m */,
+				8B6F4DA113A3392A000513A4 /* DeviantArt.h */,
+				8B6F4DA213A3392A000513A4 /* DeviantArt.m */,
+				8B6F4DA313A3392A000513A4 /* main.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8B6F4DA413A3392A000513A4 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				8BAE299813A3D76900189602 /* JSONKit */,
+				8B6F4DA513A3392A000513A4 /* OAuth2Client */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		8B6F4DA513A3392A000513A4 /* OAuth2Client */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F4DA613A3392A000513A4 /* NSData+NXOAuth2.h */,
+				8B6F4DA713A3392A000513A4 /* NSData+NXOAuth2.m */,
+				8B6F4DA813A3392A000513A4 /* NSString+NXOAuth2.h */,
+				8B6F4DA913A3392A000513A4 /* NSString+NXOAuth2.m */,
+				8B6F4DAA13A3392A000513A4 /* NSURL+NXOAuth2.h */,
+				8B6F4DAB13A3392A000513A4 /* NSURL+NXOAuth2.m */,
+				8B6F4DAC13A3392A000513A4 /* NXOAuth2.h */,
+				8B6F4DAD13A3392A000513A4 /* NXOAuth2AccessToken.h */,
+				8B6F4DAE13A3392A000513A4 /* NXOAuth2AccessToken.m */,
+				8B6F4DAF13A3392A000513A4 /* NXOAuth2Client.h */,
+				8B6F4DB013A3392A000513A4 /* NXOAuth2Client.m */,
+				8B6F4DB113A3392A000513A4 /* NXOAuth2ClientDelegate.h */,
+				8B6F4DB213A3392A000513A4 /* NXOAuth2Connection.h */,
+				8B6F4DB313A3392A000513A4 /* NXOAuth2Connection.m */,
+				8B6F4DB413A3392A000513A4 /* NXOAuth2ConnectionDelegate.h */,
+				8B6F4DB513A3392A000513A4 /* NXOAuth2Constants.h */,
+				8B6F4DB613A3392A000513A4 /* NXOAuth2Constants.m */,
+				8B6F4DB713A3392A000513A4 /* NXOAuth2FileStreamWrapper.h */,
+				8B6F4DB813A3392A000513A4 /* NXOAuth2FileStreamWrapper.m */,
+				8B6F4DB913A3392A000513A4 /* NXOAuth2PostBodyPart.h */,
+				8B6F4DBA13A3392A000513A4 /* NXOAuth2PostBodyPart.m */,
+				8B6F4DBB13A3392A000513A4 /* NXOAuth2PostBodyStream.h */,
+				8B6F4DBC13A3392A000513A4 /* NXOAuth2PostBodyStream.m */,
+				8B6F4DBD13A3392A000513A4 /* NXOAuth2TrustDelegate.h */,
+			);
+			path = OAuth2Client;
+			sourceTree = "<group>";
+		};
+		8BAE299813A3D76900189602 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				8BAE299913A3D76900189602 /* JSONKit.h */,
+				8BAE299A13A3D76900189602 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		8BD3927113A1C3F700667055 = {
+			isa = PBXGroup;
+			children = (
+				8B6F4D9B13A3392A000513A4 /* src */,
+				8B6F4DA413A3392A000513A4 /* vendor */,
+				8B6F4D9313A3392A000513A4 /* resources */,
+				8BD3927F13A1C3F700667055 /* Frameworks */,
+				8BD3927D13A1C3F700667055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD3927D13A1C3F700667055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD3927C13A1C3F700667055 /* dAOAuthExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BD3927F13A1C3F700667055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B47EB6713A1C5D10062EE25 /* Security.framework */,
+				8BD3928013A1C3F700667055 /* UIKit.framework */,
+				8BD3928213A1C3F700667055 /* Foundation.framework */,
+				8BD3928413A1C3F700667055 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BD3927B13A1C3F700667055 /* dAOAuthExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD3929D13A1C3F700667055 /* Build configuration list for PBXNativeTarget "dAOAuthExample" */;
+			buildPhases = (
+				8BD3927813A1C3F700667055 /* Sources */,
+				8BD3927913A1C3F700667055 /* Frameworks */,
+				8BD3927A13A1C3F700667055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dAOAuthExample;
+			productName = dAOAuthExample;
+			productReference = 8BD3927C13A1C3F700667055 /* dAOAuthExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BD3927313A1C3F700667055 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8BD3927613A1C3F700667055 /* Build configuration list for PBXProject "dAOAuthExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BD3927113A1C3F700667055;
+			productRefGroup = 8BD3927D13A1C3F700667055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BD3927B13A1C3F700667055 /* dAOAuthExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BD3927A13A1C3F700667055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6F4DBE13A3392A000513A4 /* dAOAuthExample-Info.plist in Resources */,
+				8B6F4DBF13A3392A000513A4 /* dAOAuthExampleViewController.xib in Resources */,
+				8B6F4DC013A3392A000513A4 /* InfoPlist.strings in Resources */,
+				8B6F4DC113A3392A000513A4 /* MainWindow.xib in Resources */,
+				8B6F4DD113A33E64000513A4 /* animal.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD3927813A1C3F700667055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6F4DC213A3392A000513A4 /* dAOAuthExampleAppDelegate.m in Sources */,
+				8B6F4DC313A3392A000513A4 /* dAOAuthExampleViewController.m in Sources */,
+				8B6F4DC413A3392A000513A4 /* DeviantArt.m in Sources */,
+				8B6F4DC513A3392A000513A4 /* main.m in Sources */,
+				8B6F4DC613A3392A000513A4 /* NSData+NXOAuth2.m in Sources */,
+				8B6F4DC713A3392A000513A4 /* NSString+NXOAuth2.m in Sources */,
+				8B6F4DC813A3392A000513A4 /* NSURL+NXOAuth2.m in Sources */,
+				8B6F4DC913A3392A000513A4 /* NXOAuth2AccessToken.m in Sources */,
+				8B6F4DCA13A3392A000513A4 /* NXOAuth2Client.m in Sources */,
+				8B6F4DCB13A3392A000513A4 /* NXOAuth2Connection.m in Sources */,
+				8B6F4DCC13A3392A000513A4 /* NXOAuth2Constants.m in Sources */,
+				8B6F4DCD13A3392A000513A4 /* NXOAuth2FileStreamWrapper.m in Sources */,
+				8B6F4DCE13A3392A000513A4 /* NXOAuth2PostBodyPart.m in Sources */,
+				8B6F4DCF13A3392A000513A4 /* NXOAuth2PostBodyStream.m in Sources */,
+				8BAE299B13A3D76900189602 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B6F4D9513A3392A000513A4 /* dAOAuthExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B6F4D9613A3392A000513A4 /* en */,
+			);
+			name = dAOAuthExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+		8B6F4D9713A3392A000513A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B6F4D9813A3392A000513A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B6F4D9913A3392A000513A4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B6F4D9A13A3392A000513A4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BD3929B13A1C3F700667055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "src/dAOAuthExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "resources/dAOAuthExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BD3929C13A1C3F700667055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "src/dAOAuthExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "resources/dAOAuthExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8BD3929E13A1C3F700667055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BD3929F13A1C3F700667055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BD3927613A1C3F700667055 /* Build configuration list for PBXProject "dAOAuthExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD3929B13A1C3F700667055 /* Debug */,
+				8BD3929C13A1C3F700667055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD3929D13A1C3F700667055 /* Build configuration list for PBXNativeTarget "dAOAuthExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD3929E13A1C3F700667055 /* Debug */,
+				8BD3929F13A1C3F700667055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BD3927313A1C3F700667055 /* Project object */;
+}
