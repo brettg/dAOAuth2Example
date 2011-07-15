@@ -72,7 +72,11 @@ NSString *const kDAOEMimeBoundary = @"dAOAuthExampleAppIsFun";
 - (void)postImage:(UIImage *)img withTitle:(NSString *)title{
   self.imageToUpload = img;
   self.titleForUpload = title;
-  [self.oauthClient requestAccess];
+  if(self.oauthClient.accessToken){
+    [self sendPostImageRequest];
+  }else{
+    [self.oauthClient requestAccess];
+  }
 }
 
 #pragma mark - private methods
